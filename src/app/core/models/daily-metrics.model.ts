@@ -1,3 +1,5 @@
+export type BlockStatus = 'upcoming' | 'active' | 'completed' | 'failed';
+
 export interface DailyMetrics {
   date: string; // YYYY-MM-DD
   dsaTime: number; // minutes
@@ -9,4 +11,6 @@ export interface DailyMetrics {
   csCompleted: boolean;
   portfolioCompleted: boolean;
   xp: number;
+  blockStatus: Record<string, BlockStatus>;
+  taskStatus: Record<string, boolean>;
 }

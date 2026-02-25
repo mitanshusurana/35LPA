@@ -21,3 +21,210 @@ NOTE: Raw file sizes do not reflect development server per-request transformatio
 No output file changes.
 
 Application bundle generation complete. [0.348 seconds] - 2026-02-25T13:54:13.800Z
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names  | Raw size
+styles.css          | styles | 11.94 kB |
+
+Application bundle generation complete. [1.676 seconds] - 2026-02-25T14:32:05.626Z
+
+Stylesheet update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  | 33.12 kB |
+
+Application bundle generation complete. [1.367 seconds] - 2026-02-25T14:32:28.813Z
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names         | Raw size
+main.js             | main          | 51.16 kB |
+styles.css          | styles        | 15.14 kB |
+
+                    | Initial total | 66.30 kB
+
+Application bundle generation complete. [0.855 seconds] - 2026-02-25T14:33:34.436Z
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names         | Raw size
+main.js             | main          | 56.84 kB |
+styles.css          | styles        | 16.13 kB |
+
+                    | Initial total | 72.97 kB
+
+Application bundle generation complete. [0.565 seconds] - 2026-02-25T14:33:47.997Z
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.360 seconds] - 2026-02-25T14:34:43.957Z
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type '{ day: number; tasks: { id: string; category: string; title: string; sourceUrl: string; completed: boolean; }[]; }[]' is not assignable to type 'DayCurriculum[]'.
+  Type '{ day: number; tasks: { id: string; category: string; title: string; sourceUrl: string; completed: boolean; }[]; }' is not assignable to type 'DayCurriculum'.
+    Types of property 'tasks' are incompatible.
+      Type '{ id: string; category: string; title: string; sourceUrl: string; completed: boolean; }[]' is not assignable to type 'Task[]'.
+        Type '{ id: string; category: string; title: string; sourceUrl: string; completed: boolean; }' is not assignable to type 'Task'.
+          Types of property 'category' are incompatible.
+            Type 'string' is not assignable to type 'TaskCategory'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/models/curriculum.model.ts:17:13:
+[37m      17 │ export const [32mCURRICULUM[37m: DayCurriculum[] = [
+         ╵              [32m~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2741: Property 'taskStatus' is missing in type '{ date: string; dsaTime: number; lldTime: number; csTime: number; portfolioTime: number; dsaCompleted: false; lldCompleted: false; csCompleted: false; portfolioCompleted: false; xp: number; blockStatus: {}; }' but required in type 'DailyMetrics'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/store/sprint.store.ts:8:6:
+[37m      8 │ const [32mDEFAULT_METRICS[37m: DailyMetrics = {
+        ╵       [32m~~~~~~~~~~~~~~~[0m
+
+  'taskStatus' is declared here.
+
+    src/app/core/models/daily-metrics.model.ts:15:2:
+[37m      15 │   [32mtaskStatus[37m: Record<string, boolean>;
+         ╵   [32m~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.231 seconds] - 2026-02-25T14:34:56.979Z
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type '{ day: number; tasks: { id: string; category: string; title: string; sourceUrl: string; completed: boolean; }[]; }[]' is not assignable to type 'DayCurriculum[]'.
+  Type '{ day: number; tasks: { id: string; category: string; title: string; sourceUrl: string; completed: boolean; }[]; }' is not assignable to type 'DayCurriculum'.
+    Types of property 'tasks' are incompatible.
+      Type '{ id: string; category: string; title: string; sourceUrl: string; completed: boolean; }[]' is not assignable to type 'Task[]'.
+        Type '{ id: string; category: string; title: string; sourceUrl: string; completed: boolean; }' is not assignable to type 'Task'.
+          Types of property 'category' are incompatible.
+            Type 'string' is not assignable to type 'TaskCategory'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/models/curriculum.model.ts:17:13:
+[37m      17 │ export const [32mCURRICULUM[37m: DayCurriculum[] = [
+         ╵              [32m~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.151 seconds] - 2026-02-25T14:35:32.067Z
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type '{ day: number; tasks: { id: string; category: string; title: string; sourceUrl: string; completed: boolean; }[]; }[]' is not assignable to type 'DayCurriculum[]'.
+  Type '{ day: number; tasks: { id: string; category: string; title: string; sourceUrl: string; completed: boolean; }[]; }' is not assignable to type 'DayCurriculum'.
+    Types of property 'tasks' are incompatible.
+      Type '{ id: string; category: string; title: string; sourceUrl: string; completed: boolean; }[]' is not assignable to type 'Task[]'.
+        Type '{ id: string; category: string; title: string; sourceUrl: string; completed: boolean; }' is not assignable to type 'Task'.
+          Types of property 'category' are incompatible.
+            Type 'string' is not assignable to type 'TaskCategory'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/models/curriculum.model.ts:17:13:
+[37m      17 │ export const [32mCURRICULUM[37m: DayCurriculum[] = [
+         ╵              [32m~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.290 seconds] - 2026-02-25T14:36:14.267Z
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type '{ day: number; tasks: { id: string; category: string; title: string; sourceUrl: string; completed: boolean; xp: number; }[]; }[]' is not assignable to type 'DayCurriculum[]'.
+  Type '{ day: number; tasks: { id: string; category: string; title: string; sourceUrl: string; completed: boolean; xp: number; }[]; }' is not assignable to type 'DayCurriculum'.
+    Types of property 'tasks' are incompatible.
+      Type '{ id: string; category: string; title: string; sourceUrl: string; completed: boolean; xp: number; }[]' is not assignable to type 'Task[]'.
+        Type '{ id: string; category: string; title: string; sourceUrl: string; completed: boolean; xp: number; }' is not assignable to type 'Task'.
+          Types of property 'category' are incompatible.
+            Type 'string' is not assignable to type 'TaskCategory'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/models/curriculum.model.ts:18:13:
+[37m      18 │ export const [32mCURRICULUM[37m: DayCurriculum[] = [
+         ╵              [32m~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.234 seconds] - 2026-02-25T14:36:23.988Z
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type '{ day: number; tasks: { id: string; category: string; title: string; sourceUrl: string; completed: boolean; xp: number; }[]; }[]' is not assignable to type 'DayCurriculum[]'.
+  Type '{ day: number; tasks: { id: string; category: string; title: string; sourceUrl: string; completed: boolean; xp: number; }[]; }' is not assignable to type 'DayCurriculum'.
+    Types of property 'tasks' are incompatible.
+      Type '{ id: string; category: string; title: string; sourceUrl: string; completed: boolean; xp: number; }[]' is not assignable to type 'Task[]'.
+        Type '{ id: string; category: string; title: string; sourceUrl: string; completed: boolean; xp: number; }' is not assignable to type 'Task'.
+          Types of property 'category' are incompatible.
+            Type 'string' is not assignable to type 'TaskCategory'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/models/curriculum.model.ts:18:13:
+[37m      18 │ export const [32mCURRICULUM[37m: DayCurriculum[] = [
+         ╵              [32m~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.433 seconds] - 2026-02-25T14:36:29.548Z
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type '{ day: number; tasks: { id: string; category: string; title: string; sourceUrl: string; completed: boolean; xp: number; }[]; }[]' is not assignable to type 'DayCurriculum[]'.
+  Type '{ day: number; tasks: { id: string; category: string; title: string; sourceUrl: string; completed: boolean; xp: number; }[]; }' is not assignable to type 'DayCurriculum'.
+    Types of property 'tasks' are incompatible.
+      Type '{ id: string; category: string; title: string; sourceUrl: string; completed: boolean; xp: number; }[]' is not assignable to type 'Task[]'.
+        Type '{ id: string; category: string; title: string; sourceUrl: string; completed: boolean; xp: number; }' is not assignable to type 'Task'.
+          Types of property 'category' are incompatible.
+            Type 'string' is not assignable to type 'TaskCategory'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/models/curriculum.model.ts:18:13:
+[37m      18 │ export const [32mCURRICULUM[37m: DayCurriculum[] = [
+         ╵              [32m~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.388 seconds] - 2026-02-25T14:36:37.748Z
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type '{ day: number; tasks: { id: string; category: string; title: string; sourceUrl: string; completed: boolean; xp: number; }[]; }[]' is not assignable to type 'DayCurriculum[]'.
+  Type '{ day: number; tasks: { id: string; category: string; title: string; sourceUrl: string; completed: boolean; xp: number; }[]; }' is not assignable to type 'DayCurriculum'.
+    Types of property 'tasks' are incompatible.
+      Type '{ id: string; category: string; title: string; sourceUrl: string; completed: boolean; xp: number; }[]' is not assignable to type 'Task[]'.
+        Type '{ id: string; category: string; title: string; sourceUrl: string; completed: boolean; xp: number; }' is not assignable to type 'Task'.
+          Types of property 'category' are incompatible.
+            Type 'string' is not assignable to type 'TaskCategory'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/models/curriculum.model.ts:18:13:
+[37m      18 │ export const [32mCURRICULUM[37m: DayCurriculum[] = [
+         ╵              [32m~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.304 seconds] - 2026-02-25T14:36:51.615Z
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type '{ day: number; tasks: { id: string; category: string; title: string; sourceUrl: string; completed: boolean; xp: number; }[]; }[]' is not assignable to type 'DayCurriculum[]'.
+  Type '{ day: number; tasks: { id: string; category: string; title: string; sourceUrl: string; completed: boolean; xp: number; }[]; }' is not assignable to type 'DayCurriculum'.
+    Types of property 'tasks' are incompatible.
+      Type '{ id: string; category: string; title: string; sourceUrl: string; completed: boolean; xp: number; }[]' is not assignable to type 'Task[]'.
+        Type '{ id: string; category: string; title: string; sourceUrl: string; completed: boolean; xp: number; }' is not assignable to type 'Task'.
+          Types of property 'category' are incompatible.
+            Type 'string' is not assignable to type 'TaskCategory'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/models/curriculum.model.ts:18:13:
+[37m      18 │ export const [32mCURRICULUM[37m: DayCurriculum[] = [
+         ╵              [32m~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names         | Raw size
+main.js             | main          | 69.35 kB |
+styles.css          | styles        | 17.76 kB |
+
+                    | Initial total | 87.11 kB
+
+Application bundle generation complete. [0.793 seconds] - 2026-02-25T14:41:23.582Z
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  | 68.48 kB |
+
+Application bundle generation complete. [0.251 seconds] - 2026-02-25T14:44:38.523Z
+
+Page reload sent to client(s).

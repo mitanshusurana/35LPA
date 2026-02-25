@@ -1,0 +1,43 @@
+
+> reality-sprint-tracker@0.0.0 start
+> ng serve --port 4201
+
+❯ Building...
+✔ Building...
+Application bundle generation failed. [4.444 seconds] - 2026-02-25T14:40:09.727Z
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type '{ day: number; tasks: { id: string; category: string; title: string; sourceUrl: string; completed: boolean; xp: number; }[]; }[]' is not assignable to type 'DayCurriculum[]'.
+  Type '{ day: number; tasks: { id: string; category: string; title: string; sourceUrl: string; completed: boolean; xp: number; }[]; }' is not assignable to type 'DayCurriculum'.
+    Types of property 'tasks' are incompatible.
+      Type '{ id: string; category: string; title: string; sourceUrl: string; completed: boolean; xp: number; }[]' is not assignable to type 'Task[]'.
+        Type '{ id: string; category: string; title: string; sourceUrl: string; completed: boolean; xp: number; }' is not assignable to type 'Task'.
+          Types of property 'category' are incompatible.
+            Type 'string' is not assignable to type 'TaskCategory'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/models/curriculum.model.ts:18:13:
+[37m      18 │ export const [32mCURRICULUM[37m: DayCurriculum[] = [
+         ╵              [32m~~~~~~~~~~[0m
+
+
+Watch mode enabled. Watching for file changes...
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names         | Raw size
+main.js             | main          | 69.35 kB |
+styles.css          | styles        | 17.76 kB |
+
+                    | Initial total | 87.11 kB
+
+Application bundle generation complete. [0.868 seconds] - 2026-02-25T14:41:23.654Z
+
+NOTE: Raw file sizes do not reflect development server per-request transformations.
+2:41:24 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+  ➜  Local:   http://localhost:4201/
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  | 68.48 kB |
+
+Application bundle generation complete. [0.268 seconds] - 2026-02-25T14:44:38.541Z
+
+Page reload sent to client(s).

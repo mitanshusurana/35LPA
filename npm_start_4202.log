@@ -1,0 +1,25 @@
+
+> reality-sprint-tracker@0.0.0 start
+> ng serve --port 4202
+
+❯ Building...
+✔ Building...
+Initial chunk files | Names         | Raw size
+main.js             | main          | 69.35 kB |
+styles.css          | styles        | 17.76 kB |
+
+                    | Initial total | 87.11 kB
+
+Application bundle generation complete. [4.681 seconds] - 2026-02-25T14:42:40.888Z
+
+Watch mode enabled. Watching for file changes...
+NOTE: Raw file sizes do not reflect development server per-request transformations.
+  ➜  Local:   http://localhost:4202/
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  | 68.48 kB |
+
+Application bundle generation complete. [0.549 seconds] - 2026-02-25T14:44:38.820Z
+
+Page reload sent to client(s).
