@@ -56,12 +56,12 @@ import { interval, Subscription } from 'rxjs';
                   <h4 class="text-[10px] font-bold text-dracula-cyan uppercase mb-2">Assigned Tasks</h4>
                   <ul class="space-y-2">
                     @for (task of getTasksForBlock(block); track task.id) {
-                      <li class="flex items-start gap-2 bg-dracula-current/20 p-2 rounded hover:bg-dracula-current/40 transition-colors">
+                      <li class="flex items-start gap-2 bg-dracula-current/20 p-2 rounded hover:bg-dracula-current/40 transition-colors pointer-events-auto">
                         <input
                           type="checkbox"
                           [checked]="isTaskCompleted(task.id)"
                           (change)="toggleTask(task, $event)"
-                          class="mt-0.5 accent-dracula-purple h-3 w-3"
+                          class="mt-0.5 accent-dracula-purple h-3 w-3 cursor-pointer z-50"
                         />
                         <div class="flex-1">
                           <a [href]="task.sourceUrl" target="_blank" class="text-xs font-semibold hover:text-dracula-cyan underline decoration-dracula-cyan/30 underline-offset-2 block">
