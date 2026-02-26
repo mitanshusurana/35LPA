@@ -1,0 +1,18 @@
+
+> reality-sprint-tracker@0.0.0 start
+> ng serve --port 4203
+
+❯ Building...
+✔ Building...
+Initial chunk files | Names         |  Raw size
+main.js             | main          |  86.69 kB |
+styles.css          | styles        |  20.86 kB |
+
+                    | Initial total | 107.55 kB
+
+Application bundle generation complete. [5.190 seconds] - 2026-02-26T02:28:46.846Z
+
+Watch mode enabled. Watching for file changes...
+NOTE: Raw file sizes do not reflect development server per-request transformations.
+2:28:47 AM [vite] (client) Re-optimizing dependencies because lockfile has changed
+  ➜  Local:   http://localhost:4203/
