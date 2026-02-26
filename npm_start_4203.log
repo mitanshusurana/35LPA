@@ -16,3 +16,27 @@ Watch mode enabled. Watching for file changes...
 NOTE: Raw file sizes do not reflect development server per-request transformations.
 2:28:47 AM [vite] (client) Re-optimizing dependencies because lockfile has changed
   ➜  Local:   http://localhost:4203/
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 119.80 kB |
+
+Application bundle generation complete. [12.535 seconds] - 2026-02-26T03:31:11.873Z
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 119.80 kB |
+
+Application bundle generation complete. [1.756 seconds] - 2026-02-26T03:32:43.575Z
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names |  Raw size
+main.js             | main  | 119.80 kB |
+
+Application bundle generation complete. [5.889 seconds] - 2026-02-26T03:32:57.484Z
+
+Component update sent to client(s).

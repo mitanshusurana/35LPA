@@ -12,7 +12,7 @@ import { CURRICULUM, Task } from '../../core/models/curriculum.model';
       <header class="mb-6 border-b border-dracula-current/50 pb-4 sticky top-0 bg-dracula-bg z-10 shadow-lg">
         <h1 class="text-xl font-bold font-mono text-dracula-pink">MASTER CURRICULUM</h1>
         <div class="text-xs text-dracula-comment font-mono mt-1">
-          30-DAY EXECUTION PLAN • FRONT-RUN OR CATCH-UP
+          45-DAY EXECUTION PLAN • FRONT-RUN OR CATCH-UP
         </div>
 
         <!-- Progress Summary -->

@@ -25,12 +25,12 @@ export const SprintStore = signalStore(
   withState(INITIAL_SPRINT_STATE),
   withComputed((store) => ({
     daysRemaining: computed(() => {
-      if (!store.startDate()) return 30;
+      if (!store.startDate()) return 45;
       const start = new Date(store.startDate()!);
       const now = new Date();
       const diffTime = Math.abs(now.getTime() - start.getTime());
       const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
-      return Math.max(0, 30 - diffDays);
+      return Math.max(0, 45 - diffDays);
     }),
     currentDay: computed(() => {
         if (!store.startDate()) return 1;
@@ -38,7 +38,7 @@ export const SprintStore = signalStore(
         const now = new Date();
         const diffTime = Math.abs(now.getTime() - start.getTime());
         const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
-        return Math.min(30, diffDays + 1); // Day 1 based
+        return Math.min(45, diffDays + 1); // Day 1 based
     }),
     todayMetrics: computed(() => {
       const today = new Date().toISOString().split('T')[0];
